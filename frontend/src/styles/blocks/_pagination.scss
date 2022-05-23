@@ -1,0 +1,22 @@
+.pagination {
+  margin-top: 10px;
+  margin-left: 1050px;
+
+  &__title {
+    color: $silver;
+  }
+
+  &__number {
+    display: inline;
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+
+  a {
+    text-decoration: none;
+  }
+
+  a:focus {
+    color: $activePageBlue;
+  }
+}

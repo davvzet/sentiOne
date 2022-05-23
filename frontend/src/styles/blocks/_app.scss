@@ -1,0 +1,14 @@
+.app {
+  &__root,
+  &__wrapper,
+  &__container {
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+.link {
+  text-decoration: none;
+  color: $dodgerBlueLight;
+}

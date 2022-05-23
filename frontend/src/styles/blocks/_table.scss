@@ -1,0 +1,31 @@
+.table {
+  border-collapse: collapse;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  width: 700px;
+
+  &__header {
+    color: $silver;
+    font-weight: 800;
+    border-bottom: 2px solid $athensGrayDark;
+    text-align: center;
+  }
+
+  &__row {
+    cursor: pointer;
+    border-bottom: 2px solid $athensGrayDark;
+    font-weight: 550;
+
+    &:hover {
+      background-color: $athensGrayDark;
+    }
+  }
+
+  &__cell {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}

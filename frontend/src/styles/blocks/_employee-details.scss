@@ -1,0 +1,29 @@
+.employees-details {
+  width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+
+  &__element {
+    margin-bottom: 10px;
+    &__name {
+      font-weight: 600;
+      color: $silver;
+      margin-right: 5px;
+    }
+
+    &__value {
+      font-weight: 550;
+    }
+  }
+
+  a {
+    text-decoration: none;
+    color: $dodgerBlueLight;
+  }
+
+  .link {
+    float: right;
+    margin-top: 20px;
+  }
+}
